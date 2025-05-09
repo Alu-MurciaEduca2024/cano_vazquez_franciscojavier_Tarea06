@@ -1,0 +1,6 @@
+@startuml
+class DeportivaMoto extends Moto {
+    - velocidadMaxima: double
+    - tieneQuickShifter: boolean
+}
+@enduml

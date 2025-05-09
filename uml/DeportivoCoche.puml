@@ -1,0 +1,7 @@
+@startuml
+class Deportivo extends Coche {
+    - aceleracion0a100: double
+    - potenciaCV: int
+    - tieneModoPista: boolean
+}
+@enduml

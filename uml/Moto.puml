@@ -1,0 +1,8 @@
+@startuml
+class Moto extends Vehiculo {
+    - cilindrada: int
+    - peso: int
+    - alturaAsiento: double
+    - tipoTransmision: TipoTransmision
+}
+@enduml

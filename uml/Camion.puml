@@ -1,0 +1,8 @@
+@startuml
+class Camion extends Vehiculo {
+    - capacidadCarga: double
+    - numEjes: int
+    - longitudRemolque: double
+    - potenciaMotor: int
+}
+@enduml

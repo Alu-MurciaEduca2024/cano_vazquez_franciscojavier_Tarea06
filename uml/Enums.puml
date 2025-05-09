@@ -1,0 +1,26 @@
+@startuml
+enum Estado {
+    DISPONIBLE
+    VENDIDO
+}
+enum TipoCombustible {
+    GASOLINA
+    DIESEL
+    HIBRIDO
+    ELECTRICO
+}
+enum Traccion {
+    DELANTERA
+    TRASERA
+    CUATRO_X_CUATRO
+}
+enum NivelConfort {
+    BASICO
+    MEDIO
+    PREMIUM
+}
+enum TipoTransmision {
+    MANUAL
+    AUTOMATICA
+}
+@enduml

@@ -1,0 +1,25 @@
+@startuml
+!include Vehiculo.puml
+!include Persona.puml
+!include Coche.puml
+!include Sedan.puml
+!include SUV.puml
+!include DeportivoCoche.puml
+!include Moto.puml
+!include Scooter.puml
+!include DeportivaMoto.puml
+!include Camion.puml
+!include Valorable.puml
+!include Enums.puml
+
+Vehiculo --> Persona : propietario
+Vehiculo <|-- Coche
+Vehiculo <|-- Moto
+Vehiculo <|-- Camion
+Coche <|-- Sedan
+Coche <|-- SUV
+Coche <|-- Deportivo
+Moto <|-- Scooter
+Moto <|-- DeportivaMoto
+Vehiculo ..|> Valorable
+@enduml

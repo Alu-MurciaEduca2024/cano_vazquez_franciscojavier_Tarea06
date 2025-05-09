@@ -1,0 +1,5 @@
+@startuml
+class Scooter extends Moto {
+    - espacioBajoAsiento: int
+}
+@enduml

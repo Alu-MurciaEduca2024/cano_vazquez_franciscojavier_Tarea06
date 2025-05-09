@@ -1,0 +1,8 @@
+@startuml
+class Coche extends Vehiculo {
+    - numPuertas: int
+    - tipoCombustible: TipoCombustible
+    - capacidadMaletero: int
+    - traccion: Traccion
+}
+@enduml

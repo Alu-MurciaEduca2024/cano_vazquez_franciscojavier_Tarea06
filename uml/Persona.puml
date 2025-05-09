@@ -1,0 +1,10 @@
+@startuml
+class Persona {
+    - nombre: String
+    - apellidos: String
+    - dni: String
+    - fechaCaducidadCarnet: LocalDate
+    - anioNacimiento: int
+    + validarDNI(): boolean
+}
+@enduml
